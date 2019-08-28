@@ -1,5 +1,6 @@
 <template>
   <div class="homeworld">
+    2019/8/28 16:21
     <el-row>
       <el-col :span="24">
         <div class="grid-content bg-purple-dark">
@@ -9,15 +10,6 @@
             <el-tab-pane label="角色管理" name="third">角色管理</el-tab-pane>
             <el-tab-pane label="定时任务补偿" name="fourth">定时任务补偿</el-tab-pane>
           </el-tabs>
-          <!-- <el-button round @click="Itera">es6 遍历器</el-button> -->
-          <!-- <span style="color:red">树形控件懒加载</span>
-          <el-tree
-            :props="props"
-            :load="loadNode"
-            @node-click="handleNodeClick"
-            lazy
-            >
-          </el-tree> -->
           <span style="color:red;">树形控件默认选中节点高亮显示</span>
           <el-tree
               :data="data"
